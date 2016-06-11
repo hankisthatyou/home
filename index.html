@@ -18,7 +18,7 @@ body {
 }
 
 #main-intro-wrapper {
-  margin: 144px;
+  margin: 120px;
 }
 
 h1 {
@@ -35,6 +35,14 @@ h1 {
   -webkit-margin-after: 0em;
 
   padding-bottom: 0.4em;
+}
+
+.gradient-bg {
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-45deg, #f8f8f8, #ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-45deg, #f8f8f8, #ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-45deg, #f8f8f8, #ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-45deg, #f8f8f8, #ffffff); /* Standard syntax */
 }
 
 @media screen and (max-width: 1024px) {
@@ -63,9 +71,9 @@ h1 {
 }
 </style>
 
-<body>
+<body class="gradient-bg">
 
-<div id='main-intro-wrapper'>
+<div id="main-intro-wrapper">
   <h1>
     Hank designs stuff,<br>currently based in Hong Kong.
   </h1>
